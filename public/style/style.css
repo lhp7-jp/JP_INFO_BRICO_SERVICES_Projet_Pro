@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    margin: 2em;
+    position: relative;
+    display: block;
+    background-color:rgb(240, 159, 9);
+    color:whitesmoke ;
+}
+
+li, ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: inline;
+    text-align: center;
+    vertical-align: top;
+    list-style-type:none;
+}
+.myNavBar
+{
+height : 83px;
+}
+footer {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+.myInfo {
+    background-image: url(/public/img/information.png);
+}
+.myDelete {
+    background-image: url(/public/img/5598.jpg);
+}
