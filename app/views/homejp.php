@@ -18,8 +18,8 @@
   <nav class="myNavBar">
     <ul>
       <li>
-        <!-- <img src="/public/pictures/Logo JP INFO BRICO SERVICES.png" alt="Logo JP INFO BRICO SERVICES" class="myLogo"/> -->
-        <!-- <h2>JP INFO BRICO SERVICES</h2> -->
+        <!-- <img src="/public/pictures/Logo JP INFO BRICO SERVICES.png" alt="Logo JP INFO BRICO SERVICES" class="myLogo" /> -->
+        <h2>JP INFO BRICO SERVICES</h2>
         <a href="/nos_services/"><span>Nos services</span></a>
       </li>
       <li>
@@ -39,12 +39,13 @@
       </li>
     </ul>
   </nav>
-
+  </br>
   <!-- Ici nous mettons le contenu de la page -->
-  <h2>Vous avez besoin d'un informaticien, un bricoleur ou un jardinier, Jean-Pierre est à votre service.</h2>
-  <button class="mybutton" onclick="window.location.href = 'homejp.php';">Besoin d'un service ? </button>
+  <span><h2>Vous avez besoin d'un informaticien, un bricoleur ou un jardinier, Jean-Pierre est à votre service.</h2></span>
+  </br>
+  <button class="myButton" onclick="window.location.href = 'homejp.php';">Besoin d'un service ? </button>
   <h3></h3>
-  <br>
+  </br>
   <!-- Et voici notre pied de page utilisé sur toutes les pages du site -->
   <footer>
     <p>© 2022 JP INFO BRICO SERVICES - 8, rue de Pierrement - Hameau de Pierrement - 76390 Criquiers.</p>

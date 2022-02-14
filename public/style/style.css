@@ -1,38 +1,100 @@
-body {
+body, .myMain {
     text-align: center;
-    margin: 2em;
+    margin: 0 auto;
     position: relative;
     display: block;
-    background-color:rgb(240, 159, 9);
-    color:whitesmoke ;
+    background-color : #fdd835;
+    color: whitesmoke;
+    max-width: 1200px;
 }
 
-li, ul {
+#buttonMobil {
+    display: none;
+}
+
+nav ul {
     display: flex;
-    justify-content: center;
-    padding: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li, href , h2{
+    flex: 1 1 auto;
     background-color: black;
     color: white;
-    height: 100px;
-    display: inline;
-    text-align: center;
-    vertical-align: top;
-    list-style-type:none;
 }
-.myNavBar
-{
-height : 83px;
-}
-footer {
-    display: flex;
-    justify-content: left;
-    padding: 10px;
+
+nav a {
+    display: block;
+    padding: 15px;
     background-color: black;
-    color: whitesmoke;
+    color: white;
+    text-align: center;
+    border-right: solid 1px silver;
+    border-bottom: solid 1px silver;
+    font-size: 1.5rem;
+    text-decoration: none;
 }
-.myInfo {
-    background-image: url(/public/img/information.png);
+
+@media only screen and (max-width: 600px) {
+    .myDisplay {
+        display: block;
+    }
+
+    #buttonMobil {
+        display: block;
+        text-align: right;
+        cursor: pointer;
+        background-color: black;
+        font-weight: bold;
+        font-size: 2rem;
+        color: white;
+    }
+
+    nav a {
+        padding-left: 15%;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        display: none;
+    }
 }
-.myDelete {
-    background-image: url(/public/img/5598.jpg);
-}
+
+    .myLogo {
+        height: 5em;
+        width: 5em;
+    }
+
+    .myButton {
+        text-align: center;
+        margin: 2em;
+        padding: 10px;
+        display: inline;
+        text-align: center;
+        background-color: black;
+        color: whitesmoke;
+        border-radius: 1rem;
+    }
+
+    footer {
+        position: absolute;
+        bottom: auto;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100%;
+        padding-top: 20px;
+        background-color: black;
+        color: whitesmoke;
+    }
+
+    .myInfo {
+        background-image: url(/public/img/information.png);
+    }
+
+    .myDelete {
+        background-image: url(/public/img/5598.jpg);
+    }

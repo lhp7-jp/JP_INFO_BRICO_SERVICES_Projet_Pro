@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    margin: 2em;
+    position: relative;
+    display: block;
+    background-color:  #fdd835;
+    color:whitesmoke ;
+}
+
+
+li, ul, .myNavBar, span,h2 {
+    display: flex;
+    justify-content: center;
+    padding: 0.9rem;
+    background-color: black;
+    color: white;
+    height: 70em;
+    display: inline;
+    text-align: center;
+    vertical-align: top;
+    list-style-type:none;
+}
+.myLogo{
+    height: 5em;
+    width: 5em;  
+}
+.myButton{
+    text-align: center;
+    margin: 2em;
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    background-color:black;
+    color:whitesmoke ;
+    border-radius: 1rem;  
+}
+
+footer {
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    background-color: black;
+    color: whitesmoke;
+}
+   .myInfo {
+    background-image: url(/public/img/information.png);
+}
+.myDelete {
+    background-image: url(/public/img/5598.jpg);
+}
