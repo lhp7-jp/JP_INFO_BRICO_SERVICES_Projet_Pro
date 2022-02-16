@@ -1,6 +1,6 @@
 body, .myMain {
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
     display: block;
     background-color : #fdd835;
@@ -14,7 +14,7 @@ body, .myMain {
 
 nav ul {
     display: flex;
-    padding: 0;
+    padding: 0 auto;
     margin: 0;
     list-style: none;
 }
@@ -23,17 +23,16 @@ nav li, href , h2{
     flex: 1 1 auto;
     background-color: black;
     color: white;
+     
 }
 
 nav a {
     display: block;
-    padding: 15px;
+    padding: 0.2em;
     background-color: black;
     color: white;
     text-align: center;
-    border-right: solid 1px silver;
-    border-bottom: solid 1px silver;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -48,24 +47,23 @@ nav a {
         cursor: pointer;
         background-color: black;
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1em;
         color: white;
     }
 
     nav a {
-        padding-left: 15%;
+        padding-left: 0.5em;
         text-align: left;
-        font-size: 1.5rem;
+        font-size: 1em;
     }
 
     nav ul {
         display: none;
     }
 }
-
     .myLogo {
-        height: 5em;
-        width: 5em;
+        height: 3em;
+        width: 3em;
     }
 
     .myButton {
@@ -86,7 +84,7 @@ nav a {
         right: 0;
         height: auto;
         width: 100%;
-        padding-top: 20px;
+        padding-top: 0.2em;
         background-color: black;
         color: whitesmoke;
     }
