@@ -3,7 +3,7 @@ body, .myMain {
     margin: 0;
     position: relative;
     display: block;
-    background-color : #fdd835;
+    background-color: #fdd835;
     color: whitesmoke;
     max-width: 1200px;
 }
@@ -19,11 +19,11 @@ nav ul {
     list-style: none;
 }
 
-nav li, href , h2{
+nav li, href, h2 {
     flex: 1 1 auto;
     background-color: black;
     color: white;
-     
+
 }
 
 nav a {
@@ -61,38 +61,39 @@ nav a {
         display: none;
     }
 }
-    .myLogo {
-        height: 3em;
-        width: 3em;
-    }
 
-    .myButton {
-        text-align: center;
-        margin: 2em;
-        padding: 10px;
-        display: inline;
-        text-align: center;
-        background-color: black;
-        color: whitesmoke;
-        border-radius: 1rem;
-    }
+.myLogo {
+    height: 3em;
+    width: 3em;
+}
 
-    footer {
-        position: absolute;
-        bottom: auto;
-        left: 0;
-        right: 0;
-        height: auto;
-        width: 100%;
-        padding-top: 0.2em;
-        background-color: black;
-        color: whitesmoke;
-    }
+.myButton {
+    text-align: center;
+    margin: 2em;
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 1rem;
+}
 
-    .myInfo {
-        background-image: url(/public/img/information.png);
-    }
+footer {
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    padding-top: 0.2em;
+    background-color: black;
+    color: whitesmoke;
+}
 
-    .myDelete {
-        background-image: url(/public/img/5598.jpg);
-    }
+.myInfo {
+    background-image: url(/public/img/information.png);
+}
+
+.myDelete {
+    background-image: url(/public/img/5598.jpg);
+}
