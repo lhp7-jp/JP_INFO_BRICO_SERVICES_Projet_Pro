@@ -19,6 +19,13 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
+.myFooter {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
 nav ul {
     display: flex;
     padding: 0;
@@ -32,10 +39,10 @@ nav li, href {
     color: white;
 }
 
-.myService {
+/* .myService {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+} */
 
 .myQuestionService {
     margin: 4rem;
@@ -44,12 +51,15 @@ nav li, href {
     text-align: center;
     height: 50px;
 }
+.myCategories {
+    vertical-align: 200%
+}
 
-h1, h2 {
+h1 {
     margin: 4rem;
     flex: 1 1 auto;
-    background-color: black;
-    color: white;
+    background-color:  #fdd835;
+    color: black;
 }
 
 .myTarifs {
@@ -58,13 +68,33 @@ h1, h2 {
     text-align: left;
 }
 
-.myTarifsServices, .myTitleAvis , 
+.myTarifsServices, .myTitleAvis,
 .myGallery, .myTitleGallery,
-.myAvis, .myTitleContact, .myContact {
+.myAvis, .myTitleContact, .myContact,
+.myFormLogin, .myFormRegistration,
+.myConnexion, .myService {
     background-color: #fdd835;
     color: black;
     text-align: center;
 }
+
+.form_field {
+    margin: 1rem;
+}
+.myContact2 {
+    background-color: #fdd835;
+    color: black;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+input:invalid {
+    border: 2px dashed red;
+  }
+  
+input:valid {
+    border: 1px solid black;
+  }
 
 #myTwoCol {
     column-count: 2;
@@ -85,13 +115,6 @@ nav a {
     text-align: center;
     font-size: 1rem;
     text-decoration: none;
-}
-
-.myFooter {
-    background-color: black;
-    color: white;
-    text-align: center;
-    height: 50px;
 }
 
 .myButton {
@@ -116,6 +139,19 @@ span {
     width: 3em;
 }
 
+.myIcon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.myMap {
+    height: 25rem;
+    width: 25rem;
+}
+.myPicture{
+    height: 8rem;
+    width: 8rem;
+}
 @media screen and (max-width: 600px) {
     .myNav a:not(:first-child) {
         display: none;
