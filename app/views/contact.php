@@ -12,25 +12,26 @@
 </head>
 
 <body>
-	<<?php include 'header.php'; ?> <div class="myTitleContact">
-		<br>
+	<?php include 'header.php'; ?> <div class="myTitleContact">
+	<h3></h3><br>
 		<h3>Contactez-nous</h3><br>
 		</div>
 		<div class="myContact" id="myTwoCol">
 			<iframe class="myMap" src="https://web-1083.webnode.com/widgets/googlemaps/?z=15&amp;a=8%2C+rue+de+Pierrement%2C+76390+Criquiers&amp;s=" loading="lazy">
 			</iframe>
-			<h4></h4><br>
+			<br>
 
 			<div class="myContact">
+				<h3></h3><br>
 				<img class="myIcon" src="/public/pictures/map.png" alt="" loading="lazy">
 				<h3>JP INFO BRICO SERVICES</h3>
 				<h3>8, rue de Pierrement - Hameau de Pierrement, 76390 Criquiers</h3>
 				<br><img class="myIcon" src="/public/pictures/telephone.png" alt="" loading="lazy">
-				<br>
 				<h3>06 81 33 89 99</h3>
+				<h3></h3><br>
 				<br><img class="myIcon" src="/public/pictures/mail.png" alt="" loading="lazy">
-				<br>
 				<h3>jpinfobricoservices@gmail.com</h3>
+				<h3></h3><br>
 			</div>
 		</div>
 		<?php include 'footer.php'; ?>

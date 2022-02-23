@@ -22,9 +22,8 @@
       <h1>Vous avez besoin d'un informaticien,
         un bricoleur ou un jardinier, Jean-Pierre est à votre service.</h1></br>
     </div>
-    <div class="myService">
-      <h1></h1></br>
-      <button class="myButton" onclick="window.location.href = '/app/views/nos_services.php';">Besoin d'un service ? </button></br>
+    <div>
+       <button class="myButton" onclick="window.location.href = '/app/views/nos_services.php';">Besoin d'un service ? </button></br>
     </div>
   </main>
   <script>

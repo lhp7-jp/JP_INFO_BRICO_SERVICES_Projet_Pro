@@ -15,20 +15,16 @@
 	<?php include 'header.php'; ?>
 	<div class="myTitleGallery">
 		<br>
-		<h3>Galerie photos</h3>
+		<h4>Galerie photos</h4>
 	</div>
 	<div class="myGallery" id="myTwoCol">
-		<h3>Isolation et plaquage Salle</h3>
+		<h4>Isolation et plaquage Salle</h4>
 		<img src="/public/pictures/Réalisation_1.jpg" alt="Isolation et plaquage Salle" width="150" height="150" loading="lazy">
-
-		<h3>Réalisation espace détente avec petit bassin</h3>
+		<h4>Réalisation espace détente avec petit bassin</h4>
 		<img src="/public/pictures/Réalisation_2.jpg" alt="Réalisation espace détente avec petit bassin" width="150" height="150" loading="lazy">
-
-		<br>
-		<h3>Allée avec graviers et rosiers</h3>
+		<h4>Allée avec graviers et rosiers</h4>
 		<img src="/public/pictures/Réalisation_4.jpg" alt="Allée avec graviers et rosiers" width="150" height="150" loading="lazy">
-
-		<h3>Isolation et plaquage couloir</h3>
+		<h4>Isolation et plaquage couloir</h4>
 		<img src="/public/pictures/Réalisation_3.jpg" alt="Isolation et plaquage couloir" width="150" height="150" loading="lazy">
 	</div>
 	<?php include 'footer.php'; ?>

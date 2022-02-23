@@ -19,24 +19,24 @@
 	</div>
 	<div class="myAvis" id="myTwoCol">
 		<img class="myPicture" src="/public/pictures/computer_scientist.png" alt="" loading="lazy"></picture>
-		<h4>Marc Fournier</h4>
-		<h4>Directeur&nbsp;/&nbsp;Entreprise</h4>
-		<p><em>"Voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni</em>.<em>"</em></p>
+		<h5>Marc Fournier</h5>
+		<h5>Directeur&nbsp;/&nbsp;Entreprise</h5>
+		<p><em>"Le travail a été rapide et correctement effectué</em>.<em>"</em></p>
 
 		<img class="myPicture" src="/public/pictures/reading-book.png" alt="" loading="lazy">
-		<h4>Louise Chevalier</h4>
-		<h4>Marketing&nbsp;/&nbsp;Entreprise</h4>
-		p><em>"Commodi consequatur quis autem vel eum iure reprehenderit qui</em>.<em>"</em></p>
+		<h5>Louise Chevalier</h5>
+		<h5>Marketing&nbsp;/&nbsp;Entreprise</h5>
+		<p><em>"Les délais ont été respectés et le travail fait avec soin</em>.<em>"</em></p>
 
 		<img class="myPicture" src="/public/pictures/teacher.png" alt="" loading="lazy"></picture>
-		<h4>Sarah Lemaire</h4>
-		<h4>Ventes&nbsp;/&nbsp;Entreprise</h4>
-		<p><em>"Dolore magnam aliquam quaerat voluptatem ut enim ad minima</em>.<em>"</em></p>
+		<h5>Sarah Lemaire</h5>
+		<h5>Ventes&nbsp;/&nbsp;Entreprise</h5>
+		<p><em>"Très bon artisan, respectueux de son travail. Avec de très bonnes idées de pose.</em>.<em>"</em></p>
 
 		<img class="myPicture" src="/public/pictures/med3d-fille7.gif" alt="" loading="lazy"></picture>
-		<h4>Jules Bertrand</h4>
-		<h4>Directeur&nbsp;/&nbsp;Entreprise</h4>
-		<p><em>"Aspernatur aut odit aut fugit sed quia consequuntur magni dolores</em>.<em>"</em></p>
+		<h5>Julie Bertrand</h5>
+		<h5>Directeur&nbsp;/&nbsp;Entreprise</h5>
+		<p><em>"Travail moyen et plus long que prévu</em>.<em>"</em></p>
 	</div>
 	<?php include 'footer.php'; ?>
 </body>

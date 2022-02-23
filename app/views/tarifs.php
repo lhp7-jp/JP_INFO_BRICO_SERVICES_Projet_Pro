@@ -13,15 +13,14 @@
 <?php include 'header.php'; ?>
 <div class="myTarifsServices" id="myTwoCol">
 	<br>
-	<h4></h4><br>
+	<h2></h2><br>
 	<h3>Tarifs de mes services</h3><br>
 	<img class="myPicturesServices" src="/public/pictures/image1_JP_INFO_BRICO_SERVICES.png" alt="Logo2 JP INFO BRICO SERVICES" class="myPictyures" />
-	<h4></h4><br>
 	<h4></h4><br>
 	<div class="myTarifs">
 		<h3></h3><br>
 		<br>
-		<p><strong>30 euros TTC l'heure, frais de déplacement inclus.&nbsp;<br></strong></p>
+		<p class="myMainTarif"><strong>30 euros TTC l'heure, frais de déplacement inclus.&nbsp;<br></strong></p>
 		<h4></h4><br>
 		<p><strong>- 0 à 1 heure : 30 euros TTC<br></strong></p>
 		<h4></h4><br>

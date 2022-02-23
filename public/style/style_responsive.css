@@ -39,27 +39,40 @@ nav li, href {
     color: white;
 }
 
-/* .myService {
+.myService {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-} */
+    grid-template-columns: 1fr 1fr;
+}
 
 .myQuestionService {
-    margin: 4rem;
+    margin: 2.5rem;
     background-color: #fdd835;
     color: black;
     text-align: center;
-    height: 50px;
+    height: 25px;
 }
+
 .myCategories {
-    vertical-align: 200%
+    margin: 0.01rem;
 }
 
 h1 {
     margin: 4rem;
     flex: 1 1 auto;
-    background-color:  #fdd835;
+    background-color: #fdd835;
     color: black;
+}
+
+h2, h3, h4 {
+    background-color: #fdd835;
+    color: black;
+    text-align: center;
+}
+
+a {
+    background-color: #fdd835;
+    color: red;
+    text-align: center;
 }
 
 .myTarifs {
@@ -68,36 +81,60 @@ h1 {
     text-align: left;
 }
 
+.myMainTarif, .myTitleConnexion, .myTitleRegistration {
+    text-decoration: underline;
+}
+
+.myFormRegistration {
+    background: #fdd835;
+    /* margin: 5px auto; */
+    color: black;
+    width: 200px;
+}
+
+.form_field_registration {
+    margin: 20rem;
+    text-align: left;
+}
+.input_Registration{
+    text-align: right;
+}
+
 .myTarifsServices, .myTitleAvis,
-.myGallery, .myTitleGallery,
-.myAvis, .myTitleContact, .myContact,
-.myFormLogin, .myFormRegistration,
-.myConnexion, .myService {
+.myGallery, .myTitleGallery, .mainFormRegistration .myAvis, .myTitleContact, .myContact,
+.myFormLogin, .myConnexion, .myService, .myReturn {
     background-color: #fdd835;
     color: black;
     text-align: center;
 }
 
 .form_field {
-    margin: 1rem;
+    margin: 0.5rem;
 }
+
+.myRegistration {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .myContact2 {
     background-color: #fdd835;
     color: black;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
 }
+
 input:invalid {
     border: 2px dashed red;
-  }
-  
+}
+
 input:valid {
     border: 1px solid black;
-  }
+}
 
-#myTwoCol {
-    column-count: 2;
+input {
+    text-align: right;
 }
 
 .myPicturesServices {
@@ -117,8 +154,8 @@ nav a {
     text-decoration: none;
 }
 
-.myButton {
-    margin: 2em;
+.myButton, .btn_return {
+    margin: 1.5em;
     padding: 10px;
     display: inline;
     text-align: center;
@@ -145,13 +182,29 @@ span {
 }
 
 .myMap {
-    height: 25rem;
-    width: 25rem;
+    height: 19rem;
+    width: 19rem;
 }
-.myPicture{
-    height: 8rem;
-    width: 8rem;
+
+.myPicture {
+    height: 6rem;
+    width: 6rem;
 }
+
+.sucessPicture {
+    height: 7rem;
+    width: 7rem;
+}
+
+#myTwoCol {
+    column-count: 2;
+}
+
+#myThreeCol {
+    column-count: 3;
+    column-gap: 8rem;
+}
+
 @media screen and (max-width: 600px) {
     .myNav a:not(:first-child) {
         display: none;
