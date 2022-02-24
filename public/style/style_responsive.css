@@ -11,7 +11,7 @@ body {
     text-align: center;
     position: relative;
     background-color: #fdd835;
-    color: whitesmoke;
+    color: white;
     max-width: 1280px;
     margin: 0;
     min-height: 100vh;
@@ -26,6 +26,10 @@ body {
     height: 50px;
 }
 
+.serviceRequestForm {
+    background-color: #fdd835; 
+    text-align: center;
+}
 nav ul {
     display: flex;
     padding: 0;
@@ -39,21 +43,12 @@ nav li, href {
     color: white;
 }
 
-.myService {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .myQuestionService {
     margin: 2.5rem;
     background-color: #fdd835;
     color: black;
     text-align: center;
     height: 25px;
-}
-
-.myCategories {
-    margin: 0.01rem;
 }
 
 h1 {
@@ -63,13 +58,13 @@ h1 {
     color: black;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
     background-color: #fdd835;
     color: black;
     text-align: center;
 }
 
-a {
+a, .infoMandatory {
     background-color: #fdd835;
     color: red;
     text-align: center;
@@ -85,33 +80,46 @@ a {
     text-decoration: underline;
 }
 
-.myFormRegistration {
-    background: #fdd835;
-    /* margin: 5px auto; */
-    color: black;
-    width: 200px;
-}
-
-.form_field_registration {
-    margin: 20rem;
+.input_Registration {
     text-align: left;
-}
-.input_Registration{
-    text-align: right;
 }
 
 .myTarifsServices, .myTitleAvis,
-.myGallery, .myTitleGallery, .mainFormRegistration .myAvis, .myTitleContact, .myContact,
-.myFormLogin, .myConnexion, .myService, .myReturn {
+.myGallery, .myTitleGallery, .mainFormRegistration,
+.myAvis, .myTitleContact, .myContact,
+.myFormLogin, .myConnexion, .myService,
+.myReturn {
     background-color: #fdd835;
     color: black;
     text-align: center;
 }
 
-.form_field {
+.form_Field {
     margin: 0.5rem;
+    padding: 0.1rem;
+    border: 2px solid black;
 }
 
+.form_Field_R {
+    margin: 5px 400px 5px 400px;
+    border: 2px solid black;
+}
+
+.form_field_registration {
+    margin: 1px 380px 1px 380px;
+    border: 2px solid black;
+}
+.myService {
+margin: 1px 200px 1px 200px;
+}
+.myService1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.myCategories {
+    margin: 1px 50px 1px 50px;
+}
 .myRegistration {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -134,7 +142,21 @@ input:valid {
 }
 
 input {
-    text-align: right;
+    background-color: #fdd835;
+    color: black;
+    border: 1px solid black;
+    margin: 4px 5px 4px 5px;
+}
+
+.myLabel {
+    background-color: #fdd835;
+    color: black;
+    display: block;
+    width: 200px;
+    float: left;
+    margin: 2px 20px 0 20px;
+    text-align:left;  
+    font-size: 1.2rem;
 }
 
 .myPicturesServices {
@@ -164,12 +186,12 @@ nav a {
     border-radius: 1rem;
 }
 
-span {
+/* span {
     margin: 20rem;
     flex: 1 1 auto;
     background-color: #fdd835;
     color: black;
-}
+} */
 
 .myLogo {
     height: 3em;
@@ -198,11 +220,6 @@ span {
 
 #myTwoCol {
     column-count: 2;
-}
-
-#myThreeCol {
-    column-count: 3;
-    column-gap: 8rem;
 }
 
 @media screen and (max-width: 600px) {

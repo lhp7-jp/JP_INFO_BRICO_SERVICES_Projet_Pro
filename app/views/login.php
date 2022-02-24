@@ -31,23 +31,23 @@
 		<h3>La validation des devis automatiques sont réservées aux membres.</h3><br>
 		<h3>Inscrivez-vous maintenant pour avoir accès à leur contenu.</h3><br>
 		<h3></h3><br>
-		<a href="user_registration.php">Créer un nouveau compte</a>
+		<a href="user_registration.php"><strong>Créer un nouveau compte</strong></a>
 		<h1></h1><br>
 		<div class="myConnexion">
 			<h1></h1><br>
 			<h3 class="myTitleConnexion">Connexion</h3><br>
-			<form action="login.php" method="post" class="form_field">
-				<fieldset>
-					<h4></h4><br>
-					<label for="email_Field">Votre adresse e-mail</label>
-					<input id="email_Field" name="input_EmailField" required value="@" type="email" maxlength="255">
-					<h4></h4><br>
-					<label for="pwd_Field">Votre mot de passe</label>
-					<input id="pwd_Field" name="input_pwd_Field" required value="" type="password" minlength="8">
-					<p><button class="myButton" type="submit" name="btn_UserLogin">S'identifier</button></p>
-				</fieldset>
+			<form action="login.php" method="post" class="form_Field">
+				<h4></h4><br>
+				<label class="myLabel" for="email_Field"><strong>Votre adresse e-mail : </strong></label>
+				<input value="<?= isset($_POST['email_Field']) ? htmlspecialchars($_POST["email_Field"]) : "" ?>"
+				 id="email_Field" name="input_EmailField" required placeholder="" type="email" size=40 maxlength="255">
+				<h4></h4><br>
+				<label class="myLabel" for="pwd_Field"><strong>Votre mot de passe : </strong></label>
+				<input value="<?= isset($_POST['pwd_Field']) ? htmlspecialchars($_POST["pwd_Field"]) : "" ?>"
+				 id="pwd_Field" name="input_pwd_Field" required placeholder="" size=40 type="password" minlength="8">
+				<p><button class="myButton" type="submit" name="btn_UserLogin">S'identifier</button></p>
 			</form>
-			<h4><a class="myFormRecovery" href="user_recovery.php">Avez-vous oublié votre mot de passe ?</a></h4>
+			<h4><a href="user_recovery.php">Avez-vous oublié votre mot de passe ?</a></h4>
 		</div>
 	</div>
 	<?php include 'footer.php'; ?>

@@ -21,22 +21,22 @@
 		<img class="myPicture" src="/public/pictures/computer_scientist.png" alt="" loading="lazy"></picture>
 		<h5>Marc Fournier</h5>
 		<h5>Directeur&nbsp;/&nbsp;Entreprise</h5>
-		<p><em>"Le travail a été rapide et correctement effectué</em>.<em>"</em></p>
+		<h5><em>"Le travail a été rapide et correctement effectué."</em></h5>
 
 		<img class="myPicture" src="/public/pictures/reading-book.png" alt="" loading="lazy">
 		<h5>Louise Chevalier</h5>
 		<h5>Marketing&nbsp;/&nbsp;Entreprise</h5>
-		<p><em>"Les délais ont été respectés et le travail fait avec soin</em>.<em>"</em></p>
+		<h5><em>"Les délais ont été respectés et le travail fait avec soin<."</em></h5>
 
 		<img class="myPicture" src="/public/pictures/teacher.png" alt="" loading="lazy"></picture>
 		<h5>Sarah Lemaire</h5>
 		<h5>Ventes&nbsp;/&nbsp;Entreprise</h5>
-		<p><em>"Très bon artisan, respectueux de son travail. Avec de très bonnes idées de pose.</em>.<em>"</em></p>
+		<h5><em>"Très bon artisan, respectueux de son travail. Avec de très bonnes idées de pose."</em></h5>
 
-		<img class="myPicture" src="/public/pictures/med3d-fille7.gif" alt="" loading="lazy"></picture>
-		<h5>Julie Bertrand</h5>
+		<img class="myPicture" src="/public/pictures/chauve.png" alt="" loading="lazy"></picture>
+		<h5>Bertrand Macron</h5>
 		<h5>Directeur&nbsp;/&nbsp;Entreprise</h5>
-		<p><em>"Travail moyen et plus long que prévu</em>.<em>"</em></p>
+		<h5><em>"Travail moyen et plus long que prévu."</em></h5>
 	</div>
 	<?php include 'footer.php'; ?>
 </body>

@@ -14,7 +14,7 @@
 <!-- Ici nous mettons le contenu de la page -->
 <div>
 	<br>
-	<h1>INFORMATIQUE</h1><br>
+	<h1>BRICOLAGE</h1><br>
 	<?php include 'choice_activity.php'; ?>
 	<?php include 'footer.php'; ?>
 	</body>

@@ -13,35 +13,33 @@
 <?php include 'header.php'; ?>
 <!-- Ici nous mettons le contenu de la page -->
 <div>
-	<div class="myQuestionService">
-		<h2>De quel service avez-vous besoin?</h2>
-	</div>
-
+	<br><h2>De quel service avez-vous besoin?</h2>
+	
 	<div class="myService" id="myTwoCol">
 		<div class="myCategories">
 			<h3></h3><br>
-			<a href="computer.php">INFORMATIQUE</a>
+			<a href="Computer.php">INFORMATIQUE</p>
 			<img src="/public/pictures/icon_support_informatique.png" alt="Informatique" class="myPicture">
-			<h3></h3><br>
+			<h3></h3><br></a>
 		</div>
 		<div class="myCategories">
 			<h3></h3><br>
-			<a href="diy.php">BRICOLAGE</a>
+			<a href="diy.php">BRICOLAGE</p><br>
 			<img src="/public/pictures/handyman_tools.png" alt="Bricolage" class="myPicture">
-			<h3></h3><br>
+			<h3></h3><br></a>
 		</div>
 		<div class="myCategories">
 			<h3></h3><br>
-			<a href="garden.php">JARDIN</a>
+			<a href="garden.php">JARDIN</p><br>
 			<img src="/public/pictures/icons_garden.png" alt="Jardin" class="myPicture">
-			<h3></h3><br>
+			<h3></h3><br></a>
 		</div>
 		<div class="myCategories">
 			<h3></h3><br>
-			<a href="other_services.php">AUTRES SERVICES</a>
+			<a href="other_services.php">AUTRES SERVICES</p><br>
 			<img src="/public/pictures/icon_information.png" alt="Autres services" class="myPicture">
-			<h3></h3><br>
-		</div></br>
+			<h3></h3><br></a>
+		</div>
 	</div>
 	<?php include 'footer.php'; ?>
 	</body>

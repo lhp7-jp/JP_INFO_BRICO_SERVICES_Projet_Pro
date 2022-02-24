@@ -14,7 +14,7 @@
 <!-- Ici nous mettons le contenu de la page -->
 <div>
 	<br>
-	<h1>INFORMATIQUE</h1><br>
+	<h1>JARDIN</h1><br>
 	<?php include 'choice_activity.php'; ?>
 	<?php include 'footer.php'; ?>
 	</body>
