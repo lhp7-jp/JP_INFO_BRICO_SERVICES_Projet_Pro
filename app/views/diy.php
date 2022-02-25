@@ -15,7 +15,6 @@
 <div>
 	<br>
 	<h1>BRICOLAGE</h1><br>
-	<?php include 'choice_activity.php'; ?>
 	<?php include 'footer.php'; ?>
 	</body>
 

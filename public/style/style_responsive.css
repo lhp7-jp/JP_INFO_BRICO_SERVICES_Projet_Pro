@@ -26,10 +26,6 @@ body {
     height: 50px;
 }
 
-.serviceRequestForm {
-    background-color: #fdd835; 
-    text-align: center;
-}
 nav ul {
     display: flex;
     padding: 0;
@@ -58,7 +54,7 @@ h1 {
     color: black;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5 , .detail_Choice_label {
     background-color: #fdd835;
     color: black;
     text-align: center;
@@ -109,6 +105,12 @@ a, .infoMandatory {
     margin: 1px 380px 1px 380px;
     border: 2px solid black;
 }
+
+.serviceRequestForm , .serviceRequestTable{
+    margin: 1px 200px 1px 200px;
+    border: 2px solid black;
+}
+
 .myService {
 margin: 1px 200px 1px 200px;
 }
@@ -148,15 +150,38 @@ input {
     margin: 4px 5px 4px 5px;
 }
 
+.detail_Choice_input, .number_Choice_input, th, td {
+    background-color: #fdd835;
+    color: black;
+}
 .myLabel {
     background-color: #fdd835;
     color: black;
     display: block;
     width: 200px;
     float: left;
-    margin: 2px 20px 0 20px;
+    margin: 0 20px 0 20px;
     text-align:left;  
     font-size: 1.2rem;
+}
+.detail_Choice_label {
+    background-color: #fdd835;
+    color: black;
+    font-weight: bold;
+    /* display:block;
+    width:350px;
+    float:left; 
+    margin: 0 20px 0 20px;
+    text-align:left;} */
+}
+
+.tabulation { 
+    display: inline-block; 
+    margin-left: 20px; 
+}
+.tabulationMiddle{
+    display: inline-block; 
+    margin-left: 20px; 
 }
 
 .myPicturesServices {

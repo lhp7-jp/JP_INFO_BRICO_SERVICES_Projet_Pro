@@ -15,7 +15,6 @@
 <div>
 	<br>
 	<h1>AUTRES SERVICES</h1><br>
-	<?php include 'choice_activity.php'; ?>
 	<?php include 'footer.php'; ?>
 	</body>
 

@@ -2,11 +2,11 @@
 la page principale  -->
 <?php
 if (($_SERVER['PHP_SELF']) != '/app/views/home.php' 
-and ($_SERVER['PHP_SELF']) == '/app/views/installation.php' or ($_SERVER['PHP_SELF']) == '/app/views/service.php') { ?>
+and ($_SERVER['PHP_SELF']) == '/app/views/installation.php' or ($_SERVER['PHP_SELF']) == '/app/views/maintenance.php') { ?>
     <div class="myReturn">
         <button class="btn_return" onclick="window.location.href='http://jpinfobricoservices/app/views/nos_services.php';">Retour</button>
     </div>
-<?php } else { ?>
+<?php } elseif (($_SERVER['PHP_SELF']) != '/app/views/home.php') { ?>
       <div class="myReturn">
         <button class="btn_return" onclick="window.location.href='http://jpinfobricoservices';">Retour</button>
     </div>
