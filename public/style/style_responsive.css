@@ -84,7 +84,7 @@ a, .infoMandatory {
 .myGallery, .myTitleGallery, .mainFormRegistration,
 .myAvis, .myTitleContact, .myContact,
 .myFormLogin, .myConnexion, .myService,
-.myReturn {
+.myReturn, .myInstallation {
     background-color: #fdd835;
     color: black;
     text-align: center;
@@ -122,6 +122,7 @@ margin: 1px 200px 1px 200px;
 .myCategories {
     margin: 1px 50px 1px 50px;
 }
+
 .myRegistration {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -153,7 +154,24 @@ input {
 .detail_Choice_input, .number_Choice_input, th, td {
     background-color: #fdd835;
     color: black;
+    height: 16px;
+    text-align: center;
 }
+
+tr {
+    border: 1.5px solid black;
+}
+
+.myInstallation {
+    margin: 1px 400px 1px 400px;
+}
+
+.installationTable {
+    width:440px;
+    border-collapse: collapse;
+    border: 1.5px solid black;
+}
+
 .myLabel {
     background-color: #fdd835;
     color: black;
@@ -168,22 +186,7 @@ input {
     background-color: #fdd835;
     color: black;
     font-weight: bold;
-    /* display:block;
-    width:350px;
-    float:left; 
-    margin: 0 20px 0 20px;
-    text-align:left;} */
-}
-
-.tabulation { 
-    display: inline-block; 
-    margin-left: 20px; 
-}
-.tabulationMiddle{
-    display: inline-block; 
-    margin-left: 20px; 
-}
-
+}   
 .myPicturesServices {
     background-color: #fdd835;
     color: black;
@@ -203,20 +206,13 @@ nav a {
 
 .myButton, .btn_return {
     margin: 1.5em;
-    padding: 10px;
+    padding: 5px;
     display: inline;
     text-align: center;
     background-color: black;
     color: whitesmoke;
     border-radius: 1rem;
 }
-
-/* span {
-    margin: 20rem;
-    flex: 1 1 auto;
-    background-color: #fdd835;
-    color: black;
-} */
 
 .myLogo {
     height: 3em;
