@@ -84,7 +84,7 @@ a, .infoMandatory {
 .myGallery, .myTitleGallery, .mainFormRegistration,
 .myAvis, .myTitleContact, .myContact,
 .myFormLogin, .myConnexion, .myService,
-.myReturn, .myInstallation {
+.myReturn, .myInstallation, .myMaintenance {
     background-color: #fdd835;
     color: black;
     text-align: center;
@@ -120,7 +120,7 @@ margin: 1px 200px 1px 200px;
 }
 
 .myCategories {
-    margin: 1px 50px 1px 50px;
+    margin: 1px 52px 1px 52px;
 }
 
 .myRegistration {
@@ -154,7 +154,7 @@ input {
 .detail_Choice_input, .number_Choice_input, th, td {
     background-color: #fdd835;
     color: black;
-    height: 16px;
+    height: 15px;
     text-align: center;
 }
 
@@ -162,11 +162,11 @@ tr {
     border: 1.5px solid black;
 }
 
-.myInstallation {
-    margin: 1px 400px 1px 400px;
+.myInstallation, .myMaintenance {
+    margin: 0px 400px 0px 400px;
 }
 
-.installationTable {
+.installationTable, .maintenanceTable {
     width:440px;
     border-collapse: collapse;
     border: 1.5px solid black;

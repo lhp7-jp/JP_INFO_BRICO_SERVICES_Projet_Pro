@@ -11,12 +11,12 @@ require '../controllers/installationController.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- <link href="/public/style/style.css" rel="stylesheet" />-->
 	<link href="/public/style/style_responsive.css" rel="stylesheet" />
-
 	<title>JP INFO BRICO SERVICES</title>
 </head>
 <?php include 'header.php'; ?>
+<!-- Ici nous mettons le contenu de la page -->
 <br>
-<h4>INSTALLATION</h4>
+<h3>INSTALLATION</h3>
 <div class="myInstallation">
 	<form action="installation.php" method="post">
 		<table class="installationTable">
@@ -65,13 +65,15 @@ require '../controllers/installationController.php';
 					<td><label class="detail_Choice_label" for="detail_Choice_label9">Site Web:</label></td>
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
+				<tr>
+					<td><label class="detail_Choice_label" for="detail_Choice_label9">Description:</label></td>
+					
+				</tr>
 			</tbody>
 		</table>
 	</form>
 	<button class="myButton" type="submit" name="btn_SendRequest" onclick="window.location.href='installation.php'">Soumettre</button>
 </div>
 <?php include 'footer.php'; ?>
-
 </body>
-
 </html>

@@ -12,10 +12,34 @@
 </head>
 <?php include 'header.php'; ?>
 <!-- Ici nous mettons le contenu de la page -->
-<div>
-	<br>
-	<h1>JARDIN</h1><br>
-	<?php include 'footer.php'; ?>
-	</body>
+<br>
+<h3>JARDIN</h3>
+<div class="myInstallation">
+	<form action="garden.php" method="post">
+		<table class="installationTable">
+			<thead>
+				<tr>
+					<th scope="col"> Type de matériel </th>
+					<th scope="col"> Nombre : </th>
+					<th scope="col"> A Cochez </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<h6></h6><br>
+					<td><label class="detail_Choice_label" for="detail_Choice_label1">Services : </label></td>
+					<?php include 'number_detail_Choice_input.php'; ?>
+				</tr>
+				<tr>
+					<td><label class="detail_Choice_label" for="detail_Choice_label9">Description:</label></td>
+					
+				</tr>
+			</tbody>
+		</table>
+	</form>
+	<button class="myButton" type="submit" name="btn_SendRequest" onclick="window.location.href='garden.php'">Soumettre</button>
+</div>
+<?php include 'footer.php'; ?>
+</body>
 
 </html>

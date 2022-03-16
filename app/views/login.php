@@ -19,7 +19,7 @@
 	<?php include 'header.php'; ?>
 	<div class="myFormLogin">
 		<h6></h6><br>
-		<h3>L'accès à cette page est restreint aux membres inscrits.</h3>
+		<h3>L'accès à certaines pages de ce site est restreint aux membres inscrits.</h3>
 		<br>
 		<h3>Veuillez vous connecter ou créer un compte pour accéder
 			au contenu privé.</h3>
