@@ -16,7 +16,7 @@ require '../controllers/installationController.php';
 <?php include 'header.php'; ?>
 <!-- Ici nous mettons le contenu de la page -->
 <br>
-<h3>INSTALLATION</h3>
+<h4>INSTALLATION</h4>
 <div class="myInstallation">
 	<form action="installation.php" method="post">
 		<table class="installationTable">
@@ -66,8 +66,8 @@ require '../controllers/installationController.php';
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label9">Description:</label></td>
-					
+					<td><label class="detail_Choice_label" for="detail_Choice_label10">Description:</label></td>
+					<td><textarea class="detail_Choice_area" id="myTextarea" rows="1.8" cols="25"></textarea></td>
 				</tr>
 			</tbody>
 		</table>

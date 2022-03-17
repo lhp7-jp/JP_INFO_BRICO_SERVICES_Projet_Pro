@@ -154,7 +154,7 @@ input {
 .detail_Choice_input, .number_Choice_input, th, td {
     background-color: #fdd835;
     color: black;
-    height: 11px;
+    height: 15px;
     text-align: center;
 }
 
@@ -163,12 +163,12 @@ tr {
 }
 
 .myInstallation, .myMaintenance {
-    margin: 0px 400px 0px 400px;
+    /* haut | droit | bas | gauche  */
+    margin: 0px 400 0px 400;
 }
 
 .installationTable, .maintenanceTable {
     width:440px;
-    height: 200px;
     border-collapse: collapse;
     border: 1.5px solid black;
 }
@@ -183,7 +183,7 @@ tr {
     text-align:left;  
     font-size: 1.2rem;
 }
-.detail_Choice_label {
+.detail_Choice_label, .detail_Choice_area {
     background-color: #fdd835;
     color: black;
     font-weight: bold;
