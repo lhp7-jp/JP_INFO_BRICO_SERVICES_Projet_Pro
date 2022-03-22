@@ -1,6 +1,6 @@
  <?php
 	require '../controllers/maintenanceController.php';
-?>
+	?>
 
  <!DOCTYPE html>
  <html lang="fr">
@@ -16,7 +16,8 @@
  <?php include 'header.php'; ?>
  <!-- Ici nous mettons le contenu de la page -->
  <br>
- <h3>MAINTENANCE</h3>
+ <h3>MAINTENANCE</h3><br>
+ <h3>Veuillez sélectionnez le service que vous avez besoin et choisir la quantité,svp</h3>
  <div class="myMaintenance">
  	<form action="maintenance.php" method="post">
  		<table class="maintenanceTable">
@@ -30,31 +31,23 @@
  			<tbody>
  				<tr>
  					<h6></h6><br>
- 					<td><label class="detail_Choice_label" for="detail_Choice_label1">Imprimante : </label></td>
+ 					<td><label class="detail_Choice_label" for="detail_Choice_label1">Nettoyage de l’OS (Virus, malwares, etc.): </label></td>
  					<?php include 'number_detail_Choice_input.php'; ?>
  				</tr>
  				<tr>
- 					<td><label class="detail_Choice_label" for="detail_Choice_label2">Scanner : </label></td>
+ 					<td><label class="detail_Choice_label" for="detail_Choice_label2">Récupération de données: </label></td>
  					<?php include 'number_detail_Choice_input.php'; ?>
  				</tr>
  				<tr>
- 					<td><label class="detail_Choice_label" for="detail_Choice_label3">Mémoire :</label></td>
+ 					<td><label class="detail_Choice_label" for="detail_Choice_label3">Matériels réseau:</label></td>
  					<?php include 'number_detail_Choice_input.php'; ?>
  				</tr>
  				<tr>
- 					<td><label class="detail_Choice_label" for="detail_Choice_label4">Box internet :</label></td>
+ 					<td><label class="detail_Choice_label" for="detail_Choice_label4">Périphériques:</label></td>
  					<?php include 'number_detail_Choice_input.php'; ?>
  				</tr>
  				<tr>
- 					<td><label class="detail_Choice_label" for="detail_Choice_label5">CPL: </label></td>
- 					<?php include 'number_detail_Choice_input.php'; ?>
- 				</tr>
- 				<tr>
- 					<td><label class="detail_Choice_label" for="detail_Choice_label6">Routeur/switch : </label></td>
- 					<?php include 'number_detail_Choice_input.php'; ?>
- 				</tr>
- 				<tr>
- 					<td><label class="detail_Choice_label" for="detail_Choice_label7">Répéteur WIFI: </label></td>
+ 					<td><label class="detail_Choice_label" for="detail_Choice_label5">Pc portable ou fixe: </label></td>
  					<?php include 'number_detail_Choice_input.php'; ?>
  				</tr>
  				<tr>
@@ -62,7 +55,7 @@
  					<?php include 'number_detail_Choice_input.php'; ?>
  				</tr>
  				<tr>
- 					<td><label class="detail_Choice_label" for="detail_Choice_label9">Site Web:</label></td>
+ 					<td><label class="detail_Choice_label" for="detail_Choice_label9">Formation:</label></td>
  					<?php include 'number_detail_Choice_input.php'; ?>
  				</tr>
  				<tr>
@@ -72,9 +65,7 @@
  			</tbody>
  		</table>
  	</form>
- 	<button class="myButton" type="submit" name="btn_SendRequest" onclick="window.location.href='maintenance.php'">Soumettre</button>
- </div>
- <?php include 'footer.php'; ?>
- </body>
+ 	<?php include 'footer.php'; ?>
+</body>
 
  </html>

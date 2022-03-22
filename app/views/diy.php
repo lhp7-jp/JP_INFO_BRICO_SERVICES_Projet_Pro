@@ -17,10 +17,11 @@
 <?php include 'header.php'; ?>
 <!-- Ici nous mettons le contenu de la page -->
 	<br>
-	<h3>BRICOLAGE</h3>
-	<div class="myInstallation">
+	<h3>BRICOLAGE</h3><br>
+ <h3>Veuillez sélectionnez le service que vous avez besoin et choisir la quantité,svp</h3>
+	<div class="myDiy">
 	<form action="diy.php" method="post">
-		<table class="installationTable">
+		<table class="diyTable">
 			<thead>
 				<tr>
 					<th scope="col"> Type de matériel </th>
@@ -41,9 +42,6 @@
 			</tbody>
 		</table>
 	</form>
-	<button class="myButton" type="submit" name="btn_SendRequest" onclick="window.location.href='diy.php'">Soumettre</button>
-</div>
 	<?php include 'footer.php'; ?>
-	</body>
-
+</body>
 </html>

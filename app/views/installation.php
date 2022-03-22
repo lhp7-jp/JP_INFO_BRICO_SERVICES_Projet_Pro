@@ -15,12 +15,13 @@ require '../controllers/installationController.php';
 </head>
 <?php include 'header.php'; ?>
 <!-- Ici nous mettons le contenu de la page -->
-<br>
-<h4>INSTALLATION</h4>
+<br><h4>INSTALLATION</h4><br>
+<h4>Veuillez sélectionnez le service que vous avez besoin et choisir la quantité,svp</h4>
 <div class="myInstallation">
 	<form action="installation.php" method="post">
 		<table class="installationTable">
 			<thead>
+				<br>
 				<tr>
 					<th scope="col"> Type de matériel </th>
 					<th scope="col"> Nombre : </th>
@@ -29,20 +30,19 @@ require '../controllers/installationController.php';
 			</thead>
 			<tbody>
 				<tr>
-					<h6></h6><br>
-					<td><label class="detail_Choice_label" for="detail_Choice_label1">Imprimante : </label></td>
+					<td><label class="detail_Choice_label" for="detail_Choice_label1">Imprimante: </label></td>
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label2">Scanner : </label></td>
+					<td><label class="detail_Choice_label" for="detail_Choice_label2">Scanner: </label></td>
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label3">Mémoire :</label></td>
+					<td><label class="detail_Choice_label" for="detail_Choice_label3">Mémoire,Carte graphique,etc.:</label></td>
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label4">Box internet :</label></td>
+					<td><label class="detail_Choice_label" for="detail_Choice_label4">Box internet:</label></td>
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
@@ -50,7 +50,7 @@ require '../controllers/installationController.php';
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label6">Routeur/switch : </label></td>
+					<td><label class="detail_Choice_label" for="detail_Choice_label6">Routeur/switch: </label></td>
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
@@ -72,8 +72,6 @@ require '../controllers/installationController.php';
 			</tbody>
 		</table>
 	</form>
-	<button class="myButton" type="submit" name="btn_SendRequest" onclick="window.location.href='installation.php'">Soumettre</button>
-</div>
 <?php include 'footer.php'; ?>
 </body>
 </html>

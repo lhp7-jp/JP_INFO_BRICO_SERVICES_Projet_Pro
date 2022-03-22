@@ -22,8 +22,10 @@ body {
 .myFooter {
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     height: 50px;
+    display: flex;
+    justify-content: left;
 }
 
 nav ul {
@@ -54,12 +56,6 @@ h1 {
     color: black;
 }
 
-h2, h3, h4, h5 , .detail_Choice_label {
-    background-color: #fdd835;
-    color: black;
-    text-align: center;
-}
-
 a, .infoMandatory {
     background-color: #fdd835;
     color: red;
@@ -84,12 +80,29 @@ a, .infoMandatory {
 .myGallery, .myTitleGallery, .mainFormRegistration,
 .myAvis, .myTitleContact, .myContact,
 .myFormLogin, .myConnexion, .myService,
-.myReturn, .myInstallation, .myMaintenance {
+.myReturn, .myInstallation, .myMaintenance,
+.myOtherServices, .myDiy, h2, h3, h4, h5 ,
+.detail_Choice_label , mySpanA {
     background-color: #fdd835;
     color: black;
     text-align: center;
 }
-
+.myFooterP {
+    background-color:black;
+    color: white;
+    text-align: left;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+}
+.myA {
+    background-color:black;
+    color: white;
+    text-align: right;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+}
 .form_Field {
     margin: 0.5rem;
     padding: 0.1rem;
@@ -162,17 +175,26 @@ tr {
     border: 1.5px solid black;
 }
 
-.myInstallation, .myMaintenance {
+.myInstallation, .myMaintenance, .myDiy {
     margin: 0px 400px 0px 400px;
 }
+.myOtherServices {
+    margin: 0px 380px 0px 380px;
+}
 
-.installationTable, .maintenanceTable {
+.installationTable, .maintenanceTable, .diyTable {
     width:440px;
-    height: 200px;
+    height: 100px;
+    border-collapse: collapse;
+    border: 1.4px solid black;
+}
+
+.otherServicesTable {
+    width:400px;
+    height: 180px;
     border-collapse: collapse;
     border: 1.5px solid black;
 }
-
 .myLabel {
     background-color: #fdd835;
     color: black;

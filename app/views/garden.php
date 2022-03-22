@@ -37,9 +37,6 @@
 			</tbody>
 		</table>
 	</form>
-	<button class="myButton" type="submit" name="btn_SendRequest" onclick="window.location.href='garden.php'">Soumettre</button>
-</div>
-<?php include 'footer.php'; ?>
+	<?php include 'footer.php'; ?>
 </body>
-
 </html>
