@@ -56,6 +56,13 @@ h1 {
     color: black;
 }
 
+.myH5, .Paragraphe {
+    /* margin: 4rem;
+    flex: 1 1 auto; */
+    background-color: #fdd835;
+    color: black;
+}
+
 a, .infoMandatory {
     background-color: #fdd835;
     color: red;
@@ -79,30 +86,37 @@ a, .infoMandatory {
 .myTarifsServices, .myTitleAvis,
 .myGallery, .myTitleGallery, .mainFormRegistration,
 .myAvis, .myTitleContact, .myContact,
-.myFormLogin, .myConnexion, .myService,
+.myFormLogin, .myService,
 .myReturn, .myInstallation, .myMaintenance,
-.myOtherServices, .myDiy, h2, h3, h4, h5 ,
-.detail_Choice_label , mySpanA {
+.myOtherServices, .myDiy, h2, h3, h4, h5,
+.detail_Choice_label, mySpanA {
     background-color: #fdd835;
     color: black;
-    text-align: center;
+    text-align: center
 }
+
+.myConnexion {
+    margin: 1px 300px 1px 300px;
+}
+
 .myFooterP {
-    background-color:black;
+    background-color: black;
     color: white;
     text-align: left;
     height: 50px;
     display: flex;
     justify-content: left;
 }
+
 .myA {
-    background-color:black;
+    background-color: black;
     color: white;
     text-align: right;
     height: 50px;
     display: flex;
     justify-content: right;
 }
+
 .form_Field {
     margin: 0.5rem;
     padding: 0.1rem;
@@ -119,14 +133,15 @@ a, .infoMandatory {
     border: 2px solid black;
 }
 
-.serviceRequestForm , .serviceRequestTable{
+.serviceRequestForm, .serviceRequestTable {
     margin: 1px 200px 1px 200px;
     border: 2px solid black;
 }
 
 .myService {
-margin: 1px 200px 1px 200px;
+    margin: 1px 200px 1px 200px;
 }
+
 .myService1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -178,23 +193,25 @@ tr {
 .myInstallation, .myMaintenance, .myDiy {
     margin: 0px 400px 0px 400px;
 }
+
 .myOtherServices {
     margin: 0px 380px 0px 380px;
 }
 
 .installationTable, .maintenanceTable, .diyTable {
-    width:440px;
+    width: 440px;
     height: 100px;
     border-collapse: collapse;
     border: 1.4px solid black;
 }
 
 .otherServicesTable {
-    width:400px;
+    width: 400px;
     height: 180px;
     border-collapse: collapse;
     border: 1.5px solid black;
 }
+
 .myLabel {
     background-color: #fdd835;
     color: black;
@@ -202,14 +219,16 @@ tr {
     width: 200px;
     float: left;
     margin: 0 20px 0 20px;
-    text-align:left;  
+    text-align: left;
     font-size: 1.2rem;
 }
+
 .detail_Choice_label {
     background-color: #fdd835;
     color: black;
     font-weight: bold;
-}   
+}
+
 .myPicturesServices {
     background-color: #fdd835;
     color: black;

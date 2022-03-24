@@ -20,5 +20,5 @@ or ($_SERVER['PHP_SELF']) == '/app/views/other_services.php') { ?>
 <!-- Et voici notre pied de page utilisé sur toutes les pages du site -->
 <footer class="myFooter" >
     </br>
-    <p class="myFooterP">© 2022 JP INFO BRICO SERVICES - 8,rue de Pierrement - 76390 CRIQUIERS - 06.66.02.75.68 | <a class="myFooterP" href="http://jpinfobricoservices/app/views/mentions_legales.php;"> Mentions légales</a></p>
+    <p class="myFooterP">© 2022 JP INFO BRICO SERVICES - 8,rue de Pierrement - 76390 CRIQUIERS - 06.66.02.75.68 | <a class="myFooterP" href="http://jpinfobricoservices/app/views/mentions_legales.php"> Mentions légales</a></p>
 </footer>
