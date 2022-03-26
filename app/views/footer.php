@@ -1,12 +1,12 @@
 <!-- bouton envoyer votre demande + bouton de retour si pas on n'est sur la page principale -->
 <?php if (($_SERVER['PHP_SELF']) == '/app/views/installation.php' or ($_SERVER['PHP_SELF']) == '/app/views/maintenance.php'
-or ($_SERVER['PHP_SELF']) == '/app/views/diy.php' or ($_SERVER['PHP_SELF']) == '/app/views/garden.php' 
-or ($_SERVER['PHP_SELF']) == '/app/views/other_services.php') { ?>
+ or ($_SERVER['PHP_SELF']) == '/app/views/garden.php' or ($_SERVER['PHP_SELF']) == '/app/views/other_services.php') { ?>
     <button class="myButton" type="submit" name="btn_SendRequest" onclick="window.location.href='installation.php'">Envoyer votre demande</button>
     </div>
     <?php }; ?>
 <?php if (($_SERVER['PHP_SELF']) != '/app/views/home.php'
     and ($_SERVER['PHP_SELF']) == '/app/views/installation.php' or ($_SERVER['PHP_SELF']) == '/app/views/maintenance.php'
+    or ($_SERVER['PHP_SELF']) == '/app/views/diy.php'
 ) { ?>
     <div class="myReturn">
         <button class="btn_return" onclick="window.location.href='http://jpinfobricoservices/app/views/nos_services.php';">Retour</button>

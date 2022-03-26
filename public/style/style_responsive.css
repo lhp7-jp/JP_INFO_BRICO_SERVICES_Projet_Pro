@@ -150,6 +150,9 @@ a, .infoMandatory {
 .myCategories {
     margin: 1px 52px 1px 52px;
 }
+.myCategories1 {
+    margin: 1px 40px 1px 40px;
+}
 
 .myRegistration {
     display: grid;
@@ -200,9 +203,9 @@ tr {
 
 .installationTable, .maintenanceTable, .diyTable {
     width: 440px;
-    height: 100px;
+    height: 80px;
     border-collapse: collapse;
-    border: 1.4px solid black;
+    border: 1px solid black;
 }
 
 .otherServicesTable {
@@ -283,6 +286,9 @@ nav a {
 
 #myTwoCol {
     column-count: 2;
+}
+#myThreeCol {
+    column-count: 3;
 }
 
 @media screen and (max-width: 600px) {

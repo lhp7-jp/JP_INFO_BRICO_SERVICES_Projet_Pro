@@ -1,7 +1,3 @@
-<?php
-	require '../controllers/diyController.php';
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -16,32 +12,36 @@
 </head>
 <?php include 'header.php'; ?>
 <!-- Ici nous mettons le contenu de la page -->
-	<br>
-	<h3>BRICOLAGE</h3><br>
- <h3>Veuillez sélectionnez le service que vous avez besoin et choisir la quantité,svp</h3>
-	<div class="myDiy">
-	<form action="diy.php" method="post">
-		<table class="diyTable">
-			<thead>
-				<tr>
-					<th scope="col"> Type de matériel </th>
-					<th scope="col"> Nombre : </th>
-					<th scope="col"> A Cochez </th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<h6></h6><br>
-					<td><label class="detail_Choice_label" for="detail_Choice_label1">Services : </label></td>
-					<?php include 'number_detail_Choice_input.php'; ?>
-				</tr>
-				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label9">Description:</label></td>
-					
-				</tr>
-			</tbody>
-		</table>
-	</form>
+<div>
+	<h1></h1><br>
+	<h2>BRICOLAGE</h2>
+	<h1></h1><br>
+	<div class="myService" id="myThreeCol">
+		<div class="myCategories1">
+			<h6></h6><br>
+			<a href="electricite_diy.php">ELECTRICITE</p><br>
+				<img src="/public/pictures/electricite_diy.png" alt="Electricité" class="myPicture">
+				<h6></h6><br>
+			</a>
+		</div>
+		<div class="myCategories1">
+			<h6></h6><br>
+			<a href="plumbing_diy.php">PLOMBERIE</p><br>
+				<img src="/public/pictures/plumbing_diy.png" alt="Plomberie" class="myPicture">
+				<h6></h6><br>
+			</a>
+		</div>
+		<div class="myCategories1">
+			<h6></h6><br>
+			<a href="masonry_diy.php">MACONNERIE</p><br>
+				<img src="/public/pictures/masonry_diy.png" alt="Maconnerie" class="myPicture">
+				<h6></h6><br>
+			</a>
+		</div>
+		<h3></h3><br>
+	</div>
+	<h2></h2><br>
 	<?php include 'footer.php'; ?>
-</body>
+	</body>
+
 </html>

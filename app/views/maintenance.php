@@ -17,7 +17,7 @@
  <!-- Ici nous mettons le contenu de la page -->
  <br>
  <h3>MAINTENANCE</h3><br>
- <h3>Veuillez sélectionnez le service que vous avez besoin et choisir la quantité,svp</h3>
+ <h4>Veuillez sélectionnez le service que vous avez besoin et choisir la quantité,svp</h4>
  <div class="myMaintenance">
  	<form action="maintenance.php" method="post">
  		<table class="maintenanceTable">
@@ -60,7 +60,7 @@
  				</tr>
  				<tr>
  					<td><label class="detail_Choice_label" for="detail_Choice_label9">Description:</label></td>
-
+ 					<td><textarea class="detail_Choice_area" id="myTextarea" rows="1.8" cols="25"></textarea></td>
  				</tr>
  			</tbody>
  		</table>
