@@ -88,7 +88,7 @@ a, .infoMandatory {
 .myAvis, .myTitleContact, .myContact,
 .myFormLogin, .myService,
 .myReturn, .myInstallation, .myMaintenance,
-.myOtherServices, .myDiy, h2, h3, h4, h5,
+.myOtherServices, .myElectricityDiy, h2, h3, h4, h5,
 .detail_Choice_label, mySpanA {
     background-color: #fdd835;
     color: black;
@@ -193,7 +193,7 @@ tr {
     border: 1.5px solid black;
 }
 
-.myInstallation, .myMaintenance, .myDiy {
+.myInstallation, .myMaintenance, .myElectricityDiy {
     margin: 0px 400px 0px 400px;
 }
 
@@ -201,7 +201,7 @@ tr {
     margin: 0px 380px 0px 380px;
 }
 
-.installationTable, .maintenanceTable, .diyTable {
+.installationTable, .maintenanceTable, .electricityDiyTable {
     width: 440px;
     height: 80px;
     border-collapse: collapse;

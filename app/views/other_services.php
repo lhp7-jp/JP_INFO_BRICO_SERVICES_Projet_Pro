@@ -34,27 +34,21 @@ require '../controllers/other_servicesController.php';
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label1">Pose de rideaux: </label></td>
+					<td><label class="detail_Choice_label" for="detail_Choice_label2">Pose de rideaux: </label></td>
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label1">Aide au déménagement: </label></td>
+					<td><label class="detail_Choice_label" for="detail_Choice_label3">Aide au déménagement: </label></td>
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label1">Autres : </label></td>
-					<?php include 'number_detail_Choice_input.php'; ?>
-				</tr>
-				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label9">Description:</label></td>
+					<td><label class="detail_Choice_label" for="detail_Choice_label5">Description:</label></td>
 					<td><textarea class="detail_Choice_area" id="myTextarea" rows="3" cols="50"></textarea></td>
 				</tr>
 			</tbody>
 		</table>
 	</form>
 	<br>
-	<button class="myButton" type="submit" name="btn_SendRequest" onclick="window.location.href='other_services.php'">Envoyer ma demande</button>
-</div>
 <?php include 'footer.php'; ?>
 </body>
 

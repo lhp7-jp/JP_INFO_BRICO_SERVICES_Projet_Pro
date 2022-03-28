@@ -1,6 +1,7 @@
 <!-- bouton envoyer votre demande + bouton de retour si pas on n'est sur la page principale -->
 <?php if (($_SERVER['PHP_SELF']) == '/app/views/installation.php' or ($_SERVER['PHP_SELF']) == '/app/views/maintenance.php'
- or ($_SERVER['PHP_SELF']) == '/app/views/garden.php' or ($_SERVER['PHP_SELF']) == '/app/views/other_services.php') { ?>
+ or ($_SERVER['PHP_SELF']) == '/app/views/garden.php' or ($_SERVER['PHP_SELF']) == '/app/views/other_services.php'
+ or ($_SERVER['PHP_SELF']) == '/app/views/electricity_diy.php') { ?>
     <button class="myButton" type="submit" name="btn_SendRequest" onclick="window.location.href='installation.php'">Envoyer votre demande</button>
     </div>
     <?php }; ?>

@@ -19,8 +19,8 @@
 	<div class="myService" id="myThreeCol">
 		<div class="myCategories1">
 			<h6></h6><br>
-			<a href="electricite_diy.php">ELECTRICITE</p><br>
-				<img src="/public/pictures/electricite_diy.png" alt="Electricité" class="myPicture">
+			<a href="electricity_diy.php">ELECTRICITE</p><br>
+				<img src="/public/pictures/electricity_diy.png" alt="Electricité" class="myPicture">
 				<h6></h6><br>
 			</a>
 		</div>

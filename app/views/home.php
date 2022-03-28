@@ -20,7 +20,7 @@
     </div>
     <div>
       <h1>Vous avez besoin d'un informaticien,
-        un bricoleur ou un jardinier, Jean-Pierre est à votre service.</h1></br>
+        un bricoleur ou un jardinier, JP INFO BRICO SERVICES est à votre service.</h1></br>
     </div>
     <div>
        <button class="myButton" onclick="window.location.href = '/app/views/nos_services.php';">Besoin d'un service ? </button></br>

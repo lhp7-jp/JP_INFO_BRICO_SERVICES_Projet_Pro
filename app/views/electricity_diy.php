@@ -17,11 +17,11 @@
 <?php include 'header.php'; ?>
 <!-- Ici nous mettons le contenu de la page -->
 	<br>
-	<h3>BRICOLAGE</h3><br>
- <h3>Veuillez sélectionnez le service que vous avez besoin et choisir la quantité,svp</h3>
-	<div class="myDiy">
-	<form action="diy.php" method="post">
-		<table class="diyTable">
+	<h3>ELECTRICITE</h3><br>
+ 	<h3>Veuillez sélectionnez le service que vous avez besoin et choisir la quantité,svp</h3>
+	<div class="myElectricityDiy">
+	<form action="electricity_diy.php" method="post">
+		<table class="electricityDiyTable">
 			<thead>
 				<tr>
 					<th scope="col"> Type de matériel </th>
@@ -32,12 +32,36 @@
 			<tbody>
 				<tr>
 					<h6></h6><br>
-					<td><label class="detail_Choice_label" for="detail_Choice_label1">Services : </label></td>
+					<td><label class="detail_Choice_label" for="detail_Choice_label1">Installation : </label></td>
 					<?php include 'number_detail_Choice_input.php'; ?>
 				</tr>
 				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label9">Description:</label></td>
-					
+					<h6></h6><br>
+					<td><label class="detail_Choice_label" for="detail_Choice_label2">Remplacement : </label></td>
+					<?php include 'number_detail_Choice_input.php'; ?>
+				</tr>
+				<tr>
+					<h6></h6><br>
+					<td><label class="detail_Choice_label" for="detail_Choice_label3">Dépannage : </label></td>
+					<?php include 'number_detail_Choice_input.php'; ?>
+				</tr>
+				<tr>
+					<h6></h6><br>
+					<td><label class="detail_Choice_label" for="detail_Choice_label4">Prise : </label></td>
+					<?php include 'number_detail_Choice_input.php'; ?>
+				</tr>
+				<tr>
+					<h6></h6><br>
+					<td><label class="detail_Choice_label" for="detail_Choice_label5">Luminaire : </label></td>
+					<?php include 'number_detail_Choice_input.php'; ?>
+				</tr>
+				<tr>
+					<h6></h6><br>
+					<td><label class="detail_Choice_label" for="detail_Choice_label6">Disjoncteur : </label></td>
+					<?php include 'number_detail_Choice_input.php'; ?>
+				</tr>
+					<td><label class="detail_Choice_label" for="detail_Choice_label7">Description de votre demande :</label></td>
+					<td><textarea class="detail_Choice_area" id="myTextarea" rows="1.8" cols="25"></textarea></td>
 				</tr>
 			</tbody>
 		</table>
