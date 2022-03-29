@@ -14,29 +14,26 @@
 <!-- Ici nous mettons le contenu de la page -->
 <br>
 <h3>JARDIN</h3>
-<div class="myInstallation">
-	<form action="garden.php" method="post">
-		<table class="installationTable">
-			<thead>
-				<tr>
-					<th scope="col"> Type de matériel </th>
-					<th scope="col"> Nombre : </th>
-					<th scope="col"> A Cochez </th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<h6></h6><br>
-					<td><label class="detail_Choice_label" for="detail_Choice_label1">Services : </label></td>
-					<?php include 'number_detail_Choice_input.php'; ?>
-				</tr>
-				<tr>
-					<td><label class="detail_Choice_label" for="detail_Choice_label9">Description:</label></td>
-					
-				</tr>
-			</tbody>
-		</table>
-	</form>
-	<?php include 'footer.php'; ?>
+<h1></h1><br>
+<div class="myService" id="myThreeCol">
+	<div class="myCategories1">
+		<h6></h6><br>
+		<a href="electricity_diy.php">TONTE</p><br>
+			<img src="/public/pictures/electricity_diy.png" alt="Electricité" class="myPicture">
+			<h6></h6><br>
+		</a>
+	</div>
+	<div class="myCategories1">
+		<h6></h6><br>
+		<a href="plumbing_diy.php">TAILLE</p><br>
+			<img src="/public/pictures/plumbing_diy.png" alt="Plomberie" class="myPicture">
+			<h6></h6><br>
+		</a>
+	</div>
+	<h3></h3><br>
+</div>
+<h2></h2><br>
+<?php include 'footer.php'; ?>
 </body>
+
 </html>
