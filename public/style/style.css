@@ -1,99 +1,46 @@
-body, .myMain {
-    text-align: center;
-    margin: 0;
-    position: relative;
-    display: block;
-    background-color: #fdd835;
-    color: whitesmoke;
-    max-width: 1200px;
+.logo {
+    width: auto;
+    height: 2em;
 }
 
-#buttonMobil {
-    display: none;
+.myCarousel .carousel-item {
+    height: 45vh;
 }
 
-nav ul {
-    display: flex;
-    padding: 0 auto;
-    margin: 0;
-    list-style: none;
+.service-title {
+    font-size: 2em;
 }
 
-nav li, href, h2 {
-    flex: 1 1 auto;
-    background-color: black;
-    color: white;
-
+.img-rea {
+    height: 10rem;
+    width: auto;
+    object-fit: cover;
 }
 
-nav a {
-    display: block;
-    padding: 0.2em;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 1rem;
-    text-decoration: none;
-}
-
-@media only screen and (max-width: 600px) {
-    .myDisplay {
-        display: block;
-    }
-
-    #buttonMobil {
-        display: block;
-        text-align: right;
-        cursor: pointer;
-        background-color: black;
-        font-weight: bold;
-        font-size: 1em;
-        color: white;
-    }
-
-    nav a {
-        padding-left: 0.5em;
-        text-align: left;
-        font-size: 1em;
-    }
-
-    nav ul {
-        display: none;
-    }
-}
-
-.myLogo {
-    height: 3em;
-    width: 3em;
-}
-
-.myButton {
-    text-align: center;
-    margin: 2em;
-    padding: 10px;
-    display: inline;
-    text-align: center;
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 1rem;
-}
-
-footer {
-    position: absolute;
-    bottom: auto;
-    left: 0;
-    right: 0;
-    height: auto;
+.map-iframe {
+    height: 100%;
     width: 100%;
-    padding-top: 0.2em;
-    background-color: black;
-    color: whitesmoke;
 }
 
-.myInfo {
-    background-image: url(/public/img/information.png);
+.customPad {
+    padding-left: 8.5rem;
 }
 
-.myDelete {
-    background-image: url(/public/img/5598.jpg);
+.login-row {
+    height: 1.8em;
+}
+
+@media screen and (max-width: 480px) {
+
+    .myCarousel .carousel-item {
+        height: 30vh;
+    }
+
+    .service-title {
+        font-size: 1em;
+    }
+
+    .customPad {
+        padding-left: 1.7rem;
+    }
 }
